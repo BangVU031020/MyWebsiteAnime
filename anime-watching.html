@@ -1,0 +1,531 @@
+<!--------Xử lý giao diện cho anime-watching ----->
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+		<title>Anime</title>
+		<meta content="" name="description">
+		<meta content="" name="keywords">
+
+
+		<!-- Google Fonts -->
+		<link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700" rel="stylesheet">
+
+		<!-- Vendor CSS Files -->
+		<link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+		<link href="vendor/font-awesome/css/all.css" rel="stylesheet">
+		<link href="vendor/owl.carousel/assets/owl.carousel.min.css" rel="stylesheet">
+		<link href="vendor/ionicons/css/ionicons.min.css" rel="stylesheet">
+		<link href="vendor/animate.css/animate.min.css" rel="stylesheet">
+		<link href="vendor/aos/aos.css" rel="stylesheet">
+
+		<!-- Template Main CSS File -->
+		<link href="css/style.css" rel="stylesheet">
+		<link href="css/anime-watching.css" rel="stylesheet">
+		
+	
+	</head>
+	<body>
+		<!-- ======= Property Search Section ======= -->
+		<div class="click-closed"></div>
+		<!--/ Form Search Star /-->
+		<div class="box-collapse">
+			<div class="title-box-d">
+				<h3 class="title-d">Tìm kiếm</h3>
+			</div>
+		<span class="close-box-collapse right-boxed ion-ios-close"></span>
+		<div class="box-collapse-wrap form">
+			<form class="form-a">
+				<div class="row">
+					<div class="col-md-12 mb-2">
+						<div class="form-group">
+							<label for="Type">Từ khóa</label>
+							<input type="text" class="form-control form-control-lg form-control-a" placeholder="Từ khóa">
+						</div>
+					</div>
+					<div class="col-md-6 mb-2">
+						<div class="form-group">
+							<label for="Type">LOẠI</label>
+							<select class="form-control form-control-lg form-control-a" id="Type">
+								<option>Tất cả</option>
+								<option>Phim bộ</option>
+								<option>Phim lẻ</option>
+							</select>
+						</div>
+					</div>
+					<div class="col-md-6 mb-2">
+						<div class="form-group">
+							<label for="anime">ANIME</label>
+							<select class="form-control form-control-lg form-control-a" id="anime">
+								<option>Tất cả</option>
+								<option>hành động</option>
+								<option>Lịch sử</option>
+								<option>Viễn Tưởng</option>
+								<option>Giả tưởng</option>
+							</select>
+						</div>
+					</div>
+					<div class="col-md-6 mb-2">
+						<div class="form-group">
+							<label for="cn-animation">CN ANIMATION</label>
+							<select class="form-control form-control-lg form-control-a" id="cn-animation">
+								<option>Tất cả</option>
+								<option>Tiên Hiệp</option>
+								<option>Xuyên Không</option>
+								<option>Huyền Ảo</option>
+								<option>...</option>
+							</select>
+						</div>
+					</div>
+					<div class="col-md-6 mb-2">
+						<div class="form-group">
+							<label for="hoathinh">Hoạt hình</label>
+							<select class="form-control form-control-lg form-control-a" id="hoathinh">
+								<option>Tất cả</option>
+								<option>Mỹ</option>
+								<option>Malaysia</option>
+								<option>Pháp</option>
+								<option>Hàn Quốc</option>
+							</select>
+						</div>
+					</div>
+					<div class="col-md-6 mb-2">
+						<div class="form-group">
+							<label for="nam">Năm phát hành</label>
+							<select class="form-control form-control-lg form-control-a" id="nam">
+								<option>Tất cả</option>
+								<option>2021</option>
+								<option>2020</option>
+								<option>2019</option>
+							</select>
+						</div>
+					</div>
+				                <div class="col-md-12">
+					<button type="submit" class="btn btn-b">Tìm kiếm</button>
+				                </div>
+				</div>
+			                </form>
+			</div>
+		</div><!-- End Property Search Section -->>
+		<!-- ======= Header/Navbar ======= -->
+		<nav class="navbar navbar-default navbar-trans navbar-expand-lg fixed-top">
+			<div class="container">
+				<button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarDefault" aria-controls="navbarDefault" aria-expanded="false" aria-label="Toggle navigation">
+					<span></span>
+					<span></span>
+					<span></span>
+				</button>
+				<a class="navbar-brand text-brand" href="index.html">Ani<span class="color-b">me</span></a>
+				<div class="navbar-collapse collapse justify-content-center" id="navbarDefault">
+					<ul class="navbar-nav">
+						<li class="nav-item">
+							<a class="nav-link" href="index.html">Trang chủ</a>
+						</li>
+						<li class="nav-item dropdown">
+							<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+							                Danh mục
+							</a>
+							<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+							                <a class="dropdown-item" href="romatic.html">Tình cảm</a>
+							                <a class="dropdown-item" href="romatic.html">Chuyển sinh</a>
+							                <a class="dropdown-item" href="romatic.html">Học Đường</a>
+							                <a class="dropdown-item" href="romatic.html">Ác quỷ</a>
+							</div>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="blog.html">Blog</a>
+						</li>
+						                
+						<li class="nav-item">
+							<a class="nav-link" href="contact.html">Liên hệ</a>
+						</li>
+					</ul>
+				</div>
+				<button type="button" class="btn btn-b-n navbar-toggle-box-collapse d-md-block" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-expanded="false">
+					<span class="fa fa-search" aria-hidden="true"></span>
+				</button>
+				<a href="login.html">
+					<button type="button" class="btn btn-b-n d-md-block" >
+						<i class="fas fa-user" ></i>
+					</button>
+				</a>
+				
+			</div>
+		</nav><!-- End Header/Navbar -->
+		
+	<main id="main" class="container">
+		<div class="container-md" data-aos="flip-left">
+			<div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+				<div class="carousel-inner">
+					<div class="carousel-item active">
+						<img src="img/boruto-naruto-next-generations-cover.jpg" class="d-block w-100" alt="...">
+					</div>
+			    </div>
+			</div>
+		</div>
+		
+		<div class="film">
+			<!-- ======= Intro Single ======= -->
+			<section class="intro-single">
+				<div class="container">
+					<div class="row">
+							<div class="col-md-12 col-lg-8">
+						<div class="title-single-box" data-aos="flip-right">
+								<h1 class="title-single">Boruto:<br/> Naruto Next Generations</h1>
+								<span class="color-text-a">Tâp 1</span>
+						</div>
+							</div>
+							<div class="col-md-12 col-lg-4">
+								<nav aria-label="breadcrumb" class="breadcrumb-box d-flex justify-content-lg-end">
+									<ol class="breadcrumb">
+										<li class="breadcrumb-item" data-aos="flip-down">
+												<a href="index.html">Trang chủ</a>
+										</li>
+										<li class="breadcrumb-item" data-aos="zoom-in">
+												<a href="romatic.html">Anime Tình cảm</a>
+										</li>
+										<li class="breadcrumb-item active" aria-current="page" data-aos="zoom-in-up">
+												Boruto: Naruto Next Generations
+										</li>
+									</ol>
+								</nav>
+							</div>
+							
+					</div>
+					<div class="row video">
+						<div class="col-md-12">
+							<div class="embed-responsive embed-responsive-16by9 mb-5" data-aos="flip-up">			                
+								<iframe class="embed-responsive-item" src="https://www.youtube.com/embed/RzClCJFpSoM?modesbranding=1&autoplay=1" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+							</div>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-12" data-aos="flip-down">
+							<div class="title-single-box">
+								<h1 class="title-single">Tổng Hợp	</h1>
+								<span class="color-text-a">Tập Anime</span>
+							</div>
+						</div>
+						<div class="col-md-12 mt-3" data-aos="zoom-in-up">
+								<span class="col-md-3 mr-3 mb-3 text-center" href="#"> 01</span>
+								<a class="col-md-3 mr-3 mb-3 text-center" href="#"> 02</a>
+								<a class="col-sm-3 mr-3 mb-3 text-center" href="#"> 03</a>
+								<a class="col-md-3 mr-3 mb-3 text-center" href="#"> 04</a>
+								<a class="col-md-3 mr-3 mb-3 text-center" href="#"> 05</a>
+								<a class="col-md-3 mr-3 mb-3 text-center" href="#"> 06</a>
+								<a class="col-md-3 mr-3 mb-3 text-center" href="#"> 07</a>
+								<a class="col-md-3 mr-3 mb-3 text-center" href="#"> 08</a>
+								<a class="col-md-3 mr-3 mb-3 text-center" href="#"> 09</a>
+								<a class="col-md-3 mr-3 mb-3 text-center" href="#"> 10</a>
+								<a class="col-md-3 mr-3 mb-3 text-center" href="#"> 11</a>
+								<a class="col-md-3 mr-3 mb-3 text-center" href="#"> 12</a>
+								<a class="col-md-3 mr-3 mb-3 text-center" href="#"> 13</a>
+								<a class="col-md-3 mr-3 mb-3 text-center" href="#"> 14</a>
+								<a class="col-md-3 mr-3 mb-3 text-center" href="#"> 15</a>
+								<a class="col-md-3 mr-3 mb-3 text-center" href="#"> 16</a>
+								<a class="col-md-3 mr-3 mb-3 text-center" href="#"> 17</a>
+								<a class="col-md-3 mr-3 mb-3 text-center" href="#"> 18</a>
+								<a class="col-md-3 mr-3 mb-3 text-center" href="#"> 19</a>
+								<a class="col-md-3 mr-3 mb-3 text-center" href="#"> 20</a>
+								<a class="col-md-3 mr-3 mb-3 text-center" href="#"> 21</a>
+								<a class="col-md-3 mr-3 mb-3 text-center" href="#"> 22</a>
+								<a class="col-md-3 mr-3 mb-3 text-center" href="#"> 23</a>
+								<a class="col-md-3 mr-3 mb-3 text-center" href="#"> 24</a>
+								<a class="col-md-3 mr-3 mb-3 text-center" href="#"> 25</a>
+								<a class="col-md-3 mr-3 mb-3 text-center" href="#"> 26</a>
+								<a class="col-md-3 mr-3 mb-3 text-center" href="#"> 27</a>
+								<a class="col-md-3 mr-3 mb-3 text-center" href="#"> 28</a>
+								<a class="col-md-3 mr-3 mb-3 text-center" href="#"> 29</a>
+								<a class="col-md-3 mr-3 mb-3 text-center" href="#"> 30</a>
+							
+							
+						
+						</div>
+						
+					</div>
+					
+					<div class="row mt-5">
+						<div class="col-md-4 mb-2">
+							<div class="title-single-box" data-aos="zoom-in-up">
+								<h1 class="title-single">Nội dung</h1>
+								<span class="color-text-a">Naruto là một chàng trai trẻ đầy nhiệt huyết cũng như rất nghịch ngợm, trải qua bao nhiêu thăng trầm, cậu trở thành anh hùng của thế giới nhẫn giả và lên chức Hokage làng lá. Nhưng câu chuyện này không phải về naruto, mà là về con trai của naruto, chính là Boruto.</span>
+							</div>
+							<div class="title-single-box mt-3" data-aos="zoom-ôut-up">
+								<h1 class="title-single">Thể loại</h1>
+								<span class="color-text-a">Anime, Hành động, Võ Thuật, Phiêu Lưu, Shounen, Siêu năng lực</span>
+							</div>
+						</div>
+						<div class="col-md-8">
+							<div class="title-single-box" data-aos="zoom-in-down">
+									<h1 class="title-single">Thảo luận </h1>
+									<span class="color-text-a">5687 bình luận</span>
+							</div>
+							<div class="col-md-12 mt-5 title-single-box" data-aos="zoom-in-left">
+								<div class="media">
+									<img src="img/dau-pha-thuong-khung-phan-4-thumbnail-1616904419.jpg" class="rounded-circle card-img" alt="Cinque Terre">
+									<div class="media-body ml-3">
+										<h5 class="body-head">Sang Trần</h5>
+											giống khoa học viễn tưởng hơn là thế giới nhẫn giả
+										<h5 class="body-head mt-2">
+											<a class="fas fa-thumbs-up" href="#"> Thích </a>
+											<a class="fas fa-comments" href="#"> Bình luận</a>         
+											50 phút trước</h5>
+									</div>
+									
+								</div>
+								<div class="col-md-12 ml-5 mt-2" data-aos="fade-up">
+									<div class="media">
+										<img src="img/dau-pha-thuong-khung-phan-4-thumbnail-1616904419.jpg" class="rounded-circle card-img" alt="Cinque Terre">
+										<div class="media-body ml-3">
+											<h5 class="body-head">Phai Bya</h5>
+											Nhẫn giả mà đấm nhau long trời lở đất =))) Nhẫn giả trong nar và bor ko giống ngoài đời thật đâu
+											 <h5 class="body-head mt-2">
+												<a class="fas fa-thumbs-up" href="#"> Thích </a>
+												<a class="fas fa-comments" href="#"> Bình luận</a>         
+												10 phút trước</h5>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-12 mt-5 mb-3 title-single-box" data-aos="zoom-in-right">
+								<div class="media">
+									<img src="img/dau-pha-thuong-khung-phan-4-thumbnail-1616904419.jpg" class="rounded-circle card-img" alt="Cinque Terre">
+									<div class="media-body ml-3">
+										<h5 class="body-head">Diễm My</h5>
+											Càng ngày cang ghét boruto này cang coi càng bực cố tình kéo dài phim ra haizz
+										<h5 class="body-head mt-2">
+											<a class="fas fa-thumbs-up" href="#"> Thích </a>
+											<a class="fas fa-comments" href="#"> Bình luận</a>         
+											2 ngày trước</h5>
+									</div>
+									
+								</div>
+								<div class="col-md-12 ml-5 mt-2" data-aos="zoom-in-up">
+									<div class="media">
+										<img src="img/dau-pha-thuong-khung-phan-4-thumbnail-1616904419.jpg" class="rounded-circle card-img" alt="Cinque Terre">
+										<div class="media-body ml-3">
+											<h5 class="body-head">Hiếu Nguyễn</h5>
+											b xem naruto rồi đúng không... nếu b xem hết naruto rồi thì b phải biết phải trải qua quá trình bao nhiêu tập thì naruto mới có được sức mạnh cửu vĩ,, mới có những trận chiến kinh hoàng chứ ai theo dõi naruto mỗi tuần 1 tập thì đối với boruto hiện tại chưa là gì đâu. cố gắng theo dõi đi, kịch hay còn ở phía sau.
+											 <h5 class="body-head mt-2">
+												<a class="fas fa-thumbs-up" href="#"> Thích </a>
+												<a class="fas fa-comments" href="#"> Bình luận</a>         
+												1 ngày trước</h5>
+										</div>
+									</div>
+								</div>
+								<div class="col-md-12 ml-5 mt-2" data-aos="zoom-out-up">
+									<div class="media">
+										<img src="img/dau-pha-thuong-khung-phan-4-thumbnail-1616904419.jpg" class="rounded-circle card-img" alt="Cinque Terre">
+										<div class="media-body ml-3">
+											<h5 class="body-head">Tui Day Buon</h5>
+											Hiếu Nguyễn chắc do bạn đó yếu thích naruto thui thông cảm cho bạn đó
+											 <h5 class="body-head mt-2">
+												<a class="fas fa-thumbs-up" href="#"> Thích </a>
+												<a class="fas fa-comments" href="#"> Bình luận</a>         
+												1 ngày trước</h5>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						
+						
+						
+						
+						<div class="offset-md-4 col-md-8" data-aos="zoom-in-right">
+							<form action="forms/contact.php" method="post" role="form" class="php-email-form">
+									<div class="row">
+									<div class="col-md-6 mb-3">
+										<div class="form-group">
+											<input type="text" name="name" class="form-control form-control-lg form-control-a" placeholder="Tên hiển thị" data-rule="minlen:4" data-msg="Hãy nhập tối thiểu 4 ký tự">
+											<div class="validate"></div>
+										</div>
+									</div>
+									<div class="col-md-12">
+										<div class="form-group">
+											<textarea name="message" class="form-control" name="Bình luận" cols="45" rows="8" data-rule="required" data-msg="Hãy viết gì đó?" placeholder="Message"></textarea>
+											<div class="validate"></div>
+										</div>
+									</div>
+
+									<div class="col-md-12 text-center">
+										<button type="submit" class="btn btn-a">Gửi bình luận</button>
+									</div>
+									</div>
+							</form>
+						</div>
+					</div>
+					
+				
+				</div>
+			</section><!-- End Intro Single-->
+		</div>
+	</main>
+	<!-- ======= Footer ======= -->
+    <section class="section-footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 col-md-4">
+                    <div class="widget-a">
+                        <div class="w-header-a" data-aos="zoom-in-left">
+                            <h3 class="w-title-a text-brand">Anime</h3>
+                        </div>
+                        <div class="w-body-a" data-aos="zoom-in-left">
+                            <p class="w-text-a color-text-a">
+                                Anime (アニメ) phát âm là a-ni-me, là từ vay mượn của tiếng Anh, từ chữ animation có nghĩa là "phim hoạt hình"), chỉ các bộ phim hoạt hình sản xuất tại Nhật Bản hay với phong cách Nhật Bản. ... Manga được xem là từ đặc biệt để chỉ riêng truyện tranh xuất phát từ Nhật Bản.
+                            </p>
+                        </div>
+                        <div class="w-footer-a" data-aos="zoom-in-right">
+                            <ul class="list-unstyled">
+                                <li class="color-a">
+                                    <span class="color-text-a">Email .</span> bangv667@example.com
+                                </li>
+                                <li class="color-a">
+                                    <span class="color-text-a">Điện thoại .</span> +84325 679 569
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-4 section-md-t3" data-aos="zoom-in-left">
+                    <div class="widget-a">
+                        <div class="w-header-a">
+                            <h3 class="w-title-a text-brand">Tổ chức</h3>
+                        </div>
+                        <div class="w-body-a">
+                            <div class="w-body-a">
+                                <ul class="list-unstyled">
+                                    <li class="item-list-a">
+                                        <i class="fa fa-angle-right"></i> <a href="#">Địa điểm</a>
+                                    </li>
+                                    <li class="item-list-a">
+                                        <i class="fa fa-angle-right"></i> <a href="#">Hợp pháp</a>
+                                    </li>
+                                    <li class="item-list-a">
+                                        <i class="fa fa-angle-right"></i> <a href="#">Admin hiện tại</a>
+                                    </li>
+                                    <li class="item-list-a">
+                                        <i class="fa fa-angle-right"></i> <a href="#">Sự nghiệp</a>
+                                    </li>
+                                    <li class="item-list-a">
+                                        <i class="fa fa-angle-right"></i> <a href="#">Chi nhánh</a>
+                                    </li>
+                                    <li class="item-list-a">
+                                        <i class="fa fa-angle-right"></i> <a href="#">Chính sách bảo mật</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-4 section-md-t3" data-aos="zoom-in-right">
+                    <div class="widget-a">
+                        <div class="w-header-a">
+                            <h3 class="w-title-a text-brand">Websites nước ngoài</h3>
+                        </div>
+                        <div class="w-body-a">
+                            <ul class="list-unstyled">
+                                <li class="item-list-a">
+                                    <i class="fa fa-angle-right"></i> <a href="#">Venezuela</a>
+                                </li>
+                                <li class="item-list-a">
+                                    <i class="fa fa-angle-right"></i> <a href="#">China</a>
+                                </li>
+                                <li class="item-list-a">
+                                    <i class="fa fa-angle-right"></i> <a href="#">Hong Kong</a>
+                                </li>
+                                <li class="item-list-a">
+                                    <i class="fa fa-angle-right"></i> <a href="#">Argentina</a>
+                                </li>
+                                <li class="item-list-a">
+                                    <i class="fa fa-angle-right"></i> <a href="#">Singapore</a>
+                                </li>
+                                <li class="item-list-a">
+                                    <i class="fa fa-angle-right"></i> <a href="#">Philippines</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <nav class="nav-footer">
+                        <ul class="list-inline">
+                            <li class="list-inline-item">
+                                <a href="index.html">Trang chủ</a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a href="blog.html">Blog</a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a href="contact.html">Liên hệ</a>
+                            </li>
+                        </ul>
+                    </nav>
+                    <div class="socials-a">
+                        <ul class="list-inline">
+                            <li class="list-inline-item">
+                                <a href="#">
+                                    <i class="fab fa-facebook" aria-hidden="true"></i>
+                                </a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a href="#">
+                                    <i class="fab fa-twitter" aria-hidden="true"></i>
+                                </a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a href="#">
+                                    <i class="fab fa-instagram" aria-hidden="true"></i>
+                                </a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a href="#">
+                                    <i class="fab fa-pinterest-p" aria-hidden="true"></i>
+                                </a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a href="#">
+                                    <i class="fab fa-dribbble" aria-hidden="true"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="copyright-footer">
+                        <p class="copyright color-text-a">
+                            &copy; Copyright
+                            <span class="color-a">Anime</span> Đã đăng ký Bản quyền.
+                        </p>
+                    </div>
+                    <div class="credits">
+                        Thiết kế bởi <a href="https://www.facebook.com/vu.bang.5283/">Vũ Bằng</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer><!-- End    Footer -->
+
+    <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
+    <div id="preloader"></div>
+		<!-- Vendor JS Files -->
+		<script src="vendor/jquery/jquery.min.js"></script>
+		<script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+		<script src="vendor/jquery.easing/jquery.easing.min.js"></script>
+		<script src="vendor/php-email-form/validate.js"></script>
+		<script src="vendor/owl.carousel/owl.carousel.min.js"></script>
+		<script src="vendor/scrollreveal/scrollreveal.min.js"></script>
+		<script src="vendor/aos/aos.js"></script>
+
+		<!-- Template Main JS File -->
+		<script src="js/main.js"></script>
+	
+	</body>
+
+
+</html>
